@@ -1,0 +1,47 @@
+
+/* css */
+
+/* default option */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* margin: auto */
+.m-auto { margin: auto; }
+
+/* font size */
+.fs-10 { font-size: 10px; }
+.fs-11 { font-size: 11px; }
+.fs-12 { font-size: 12px; }
+.fs-13 { font-size: 13px; }
+.fs-14 { font-size: 14px; }
+.fs-15 { font-size: 15px; }
+.fs-default { font-size: 14px; }
+
+/* outline: none */
+#outline-none { outline: none; }
+
+/* letter spacing */
+.ls-1 { letter-spacing: 1px; }
+.ls-2 { letter-spacing: 2px; }
+.ls-3 { letter-spacing: 3px; }
+.ls-4 { letter-spacing: 4px; }
+.ls-5 { letter-spacing: 5px; }
+
+/* flec-wrap: wrap */
+.flex-wrap { flex-wrap: wrap; }
+
+/* display desktop in mobile screen */
+#d-desktop { display: none; }
+
+@media only screen and (min-width: 768px) {
+  
+  /* display mobile in desktop screen */
+  #d-mobile { display: none; }
+  
+  /* display desktop in desktop screen */
+  #d-desktop { display: flex; }
+}
